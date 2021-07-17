@@ -1,8 +1,8 @@
-import './styles.css'
+import HomeArticleCard from '../HomeArticleCard';
 
 const HomeArticleContent1 = () =>{
     return(
-        <div className="card text-center card1">
+            <HomeArticleCard className="card text-center">
             <div className="card-header">
              Featured
             </div>
@@ -16,7 +16,7 @@ const HomeArticleContent1 = () =>{
             <div className="card-footer text-muted">
                             2 days ago
             </div>
-     </div>    
+            </HomeArticleCard>
     )
 
 }
