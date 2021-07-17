@@ -1,0 +1,12 @@
+.card2{
+    background-image: url(./3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.card {
+    width: 320px;
+    height: 320px;
+}
