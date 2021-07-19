@@ -1,8 +1,10 @@
 import ArticleTitle from "../ArticleTitle";
+import SecondaryPage from "../SecondaryPage";
 
 const Artistapage = ()=>{
     return(
         <>
+        <SecondaryPage id="artistpage" className="container">
         <ArticleTitle>Irene Borges</ArticleTitle>
         <div class="card">
 
@@ -16,6 +18,7 @@ const Artistapage = ()=>{
             </blockquote>
         </div>
         </div>
+        </SecondaryPage>
         </>
 
     )

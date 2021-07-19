@@ -5,7 +5,7 @@ import ArticleTitle from "../ArticleTitle";
 const Article2 = () =>{
     return(
         <>
-        <div className="container">
+        <div id="homearticle2" className="container">
             <ArticleTitle>Sacras</ArticleTitle>
             <div className="row justify-content-around">
 

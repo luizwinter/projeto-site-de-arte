@@ -1,11 +1,13 @@
+import { homePage, artistaPage } from '../ClickFunctions';
 import './styles.css';
+import Atag from '../Atag';
 
 const NavBar = ()=>{
     return(
         <div className="">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Irene Borges</a>
+                <Atag className="navbar-brand" text="Irene Borges" active={homePage}/>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -18,7 +20,7 @@ const NavBar = ()=>{
                     <a className="nav-link" href="#">Obras</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Artista</a>
+                    <Atag className="nav-link" text="Artista" active={artistaPage}/>
                     </li>
                 </ul>
                 <span className="navbar-text">
