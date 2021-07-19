@@ -1,10 +1,14 @@
+import CardStyle from "./styled";
 
 const Card = (props) =>{
     return(
         <>
-        <div className="card-header">
-        {props.feature}
-       </div>
+        <CardStyle>
+        {props.nameimg}
+       </CardStyle>
+       
+        {/*
+
        <div>
            <div className="card-body">
                <h5 className="card-title">{props.txt}</h5>
@@ -15,6 +19,9 @@ const Card = (props) =>{
        <div className="card-footer text-muted">
          {props.date}
        </div>
+
+        */}
+
        </>
         )
 }

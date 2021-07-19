@@ -15,10 +15,7 @@ const HomeArticle = () =>{
                 >
 
                 <Card 
-                feature="Paisagem"
-                txt="Algum texto aqui"
-                coment="comentario"
-
+                nameimg="Tulipas"
                 />
                 </HomeArticleCard>
                 <HomeArticleCard  
@@ -27,9 +24,7 @@ const HomeArticle = () =>{
                 >
 
                 <Card 
-                feature="Paisagem"
-                txt="Algum texto aqui"
-                coment="comentario"
+                nameimg="Mar Aberto"
                 />
                 </HomeArticleCard>
                 <HomeArticleCard  
@@ -38,9 +33,7 @@ const HomeArticle = () =>{
                 >
 
                 <Card 
-                feature="Paisagem"
-                txt="Algum texto aqui"
-                coment="comentario"
+                nameimg="Mar Aberto - Finalizado"
                 />
                 </HomeArticleCard>            </div>
         </div>
