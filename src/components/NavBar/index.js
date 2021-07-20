@@ -1,4 +1,4 @@
-import { homePage, artistaPage } from '../ClickFunctions';
+import { homePage, artistaPage, obrasPage } from '../ClickFunctions';
 import './styles.css';
 import Atag from '../Atag';
 
@@ -14,10 +14,10 @@ const NavBar = ()=>{
                 <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                    <Atag className="nav-link active" text="Home" active={homePage}/>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Obras</a>
+                    <Atag className="nav-link" text="Obras" active={obrasPage}/>
                     </li>
                     <li className="nav-item">
                     <Atag className="nav-link" text="Artista" active={artistaPage}/>

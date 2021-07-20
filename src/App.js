@@ -1,9 +1,10 @@
 import HomeImg from "./components/HomeImg";
 import NavBar from "./components/NavBar";
-import HomeArticle from "./components/HomeArticle";
-import Article2 from "./components/Article2";
+import HomeArticle from "./components/HomePage/HomeArticle";
+import Article2 from "./components/HomePage/Article2";
 import Footer from "./components/Footer";
 import Artistapage from "./components/Artistapage";
+import ObrasPage from "./components/ObrasPage";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <HomeArticle/>
     <Article2/>
     <Artistapage/>
+    <ObrasPage/>
     <Footer/>
     </>
     );

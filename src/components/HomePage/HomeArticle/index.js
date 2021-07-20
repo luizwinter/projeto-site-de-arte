@@ -1,44 +1,44 @@
-import HomeArticleCard from "../HomeArticleCard";
-import Card from "../Card";
-import ArticleTitle from "../ArticleTitle";
+import HomeArticleCard from "../../HomeArticleCard"
+import Card from "../../Card"
+import ArticleTitle from "../../ArticleTitle"
 
-const Article2 = () =>{
+const HomeArticle = () =>{
     return(
         <>
-        <div id="homearticle2" className="container">
-            <ArticleTitle>Sacras</ArticleTitle>
+        <div id="homearticle1" className="container">
+        <ArticleTitle>Paisagens</ArticleTitle>
             <div className="row justify-content-around">
 
                 <HomeArticleCard  
-                style={{ backgroundImage: "url(/sacr1.jpg)"}}
+                style={{ backgroundImage: "url(/nat1.jpg)"}}
                 className="col-md4"
                 >
 
                 <Card 
-                nameimg="Anjo"
+                nameimg="Tulipas"
                 />
                 </HomeArticleCard>
                 <HomeArticleCard  
-                style={{ backgroundImage: "url(/sacr2.jpg)"}}
+                style={{ backgroundImage: "url(/nat2.jpg)"}}
                 className="col-md4"
                 >
 
                 <Card 
-                nameimg="São Miguel Arcanjo"
+                nameimg="Mar Aberto"
                 />
                 </HomeArticleCard>
                 <HomeArticleCard  
-                style={{ backgroundImage: "url(/sacr3.jpg)"}}
+                style={{ backgroundImage: "url(/nat3.jpg)"}}
                 className="col-md4"
                 >
 
                 <Card 
-                nameimg="N.S. da Paz"
+                nameimg="Mar Aberto - Finalizado"
                 />
                 </HomeArticleCard>            </div>
         </div>
         </>
     )
-};
+}
 
-export default Article2;
+export default HomeArticle
